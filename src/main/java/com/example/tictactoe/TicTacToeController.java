@@ -6,7 +6,7 @@ import javafx.scene.control.Label;
 
 import java.util.ArrayList;
 
-public class HelloController {
+public class TicTacToeController {
 
     @FXML
     private Button button1;
