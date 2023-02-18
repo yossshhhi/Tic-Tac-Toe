@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tictactoe.HelloController">
+   <children>
+      <Button fx:id="button1" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Button>
+      <Button fx:id="button9" layoutX="335.0" layoutY="335.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Button>
+      <Button fx:id="button8" layoutX="175.0" layoutY="335.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Button>
+      <Button fx:id="button7" layoutX="14.0" layoutY="335.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Button>
+      <Button fx:id="button6" layoutX="335.0" layoutY="175.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Button>
+      <Button fx:id="button5" layoutX="175.0" layoutY="175.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Button>
+      <Button fx:id="button4" layoutX="14.0" layoutY="175.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Button>
+      <Button fx:id="button3" layoutX="335.0" layoutY="14.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="175.0" layoutY="14.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Button>
+      <Label fx:id="label" alignment="CENTER" layoutX="119.0" layoutY="506.0" prefHeight="30.0" prefWidth="251.0" text="Label">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="start" layoutX="14.0" layoutY="506.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="85.0" text="New Game" />
+   </children>
+</AnchorPane>
